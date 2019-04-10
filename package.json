@@ -1,0 +1,29 @@
+{
+  "name": "ugroup-challenge",
+  "version": "1.0.0",
+  "description": "coding challenge for ugroup",
+  "main": "plan.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuluo/ugroup-challenge.git"
+  },
+  "keywords": [
+    "code",
+    "challenge"
+  ],
+  "author": "Yuanting Luo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yuluo/ugroup-challenge/issues"
+  },
+  "homepage": "https://github.com/yuluo/ugroup-challenge#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "js-beautify": "^1.9.1",
+    "jshint": "^2.10.2",
+    "mocha": "^6.1.2"
+  }
+}
