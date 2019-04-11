@@ -4,7 +4,10 @@
   "description": "coding challenge for ugroup",
   "main": "plan.js",
   "scripts": {
-    "test": "mocha test"
+    "start": "node app.js",
+    "test": "./node_modules/.bin/nyc  --reporter=text mocha ./test/*.js",
+    "beautify": "./node_modules/.bin/js-beautify *.js test/*.js",
+    "jshint": "./node_modules/.bin/jshint --exclude=node_modules,test ."
   },
   "repository": {
     "type": "git",
@@ -24,6 +27,7 @@
     "chai": "^4.2.0",
     "js-beautify": "^1.9.1",
     "jshint": "^2.10.2",
-    "mocha": "^6.1.2"
+    "mocha": "^6.1.2",
+    "nyc": "^13.3.0"
   }
 }

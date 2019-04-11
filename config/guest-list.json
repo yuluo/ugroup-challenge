@@ -1,0 +1,28 @@
+[
+    {
+        "name": "Thornton",
+        "party": 3
+    },
+    {
+        "name": "Garcia",
+        "party": 2
+    },
+    {
+        "name": "Owens",
+        "party": 6,
+        "dislike": ["Thornton", "Taylor"]
+    },
+    {
+        "name": "Smith",
+        "party": 1,
+        "dislike": ["Garcia"]
+    },
+    {
+        "name": "Taylor",
+        "party": 5
+    },
+    {
+        "name": "Reese",
+        "party": 7
+    }
+]
